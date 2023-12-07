@@ -1,0 +1,31 @@
+{
+  "name": "sitlab-camera",
+  "version": "1.0.0",
+  "description": "Video camera streaming with nodejs and express",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branilaa/sitlab-camera.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "sitlab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branilaa/sitlab-camera/issues"
+  },
+  "homepage": "https://github.com/branilaa/sitlab-camera#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
